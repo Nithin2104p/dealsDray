@@ -1,0 +1,72 @@
+/* AddPosts.css */
+
+.container {
+
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f8f9fa; */
+    /* Light gray background */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* Shadow effect */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="file"] {
+    /* display: none; */
+    /* Remove this line to make the file input visible */
+    width: 100%;
+    /* Optional: Adjust width to fit container */
+    padding: 10px;
+    /* Optional: Add padding for better appearance */
+    border: 1px solid #ccc;
+    /* Optional: Add border for clarity */
+    border-radius: 5px;
+    /* Optional: Add border radius for styling */
+    font-size: 16px;
+    /* Optional: Adjust font size */
+}
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    /* Red background color */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c82333;
+    /* Darker red color on hover */
+}

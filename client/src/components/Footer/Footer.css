@@ -1,0 +1,23 @@
+.footer img {
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+
+}
+
+.x hr {
+    border: 1px solid rgb(152, 152, 152);
+    position: relative;
+    top: 40px;
+}
+
+.footer .bottom ul {
+    display: flex;
+    gap: 50px;
+}
